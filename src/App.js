@@ -6,7 +6,7 @@ import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 const rows: GridRowsProp = [
   { id: 1, col1: 'hello', col2: 'world' },
   { id: 2, col1: 'studio', col2: 'ghibli' },
-  { id: 3, col1: 'Howls', col2: 'Moving' }
+  { id: 3, col1: 'Howls', col2: 'Moving Castle' }
 ];
 
 const columns: GridColDef[] = [
