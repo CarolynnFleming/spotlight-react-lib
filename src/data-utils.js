@@ -17,7 +17,7 @@ export function makeColumns(arr) {
 
 export function makeCountByAge(arr) {
   const totaFoods = arr.reduce((acc, curr) => {
-    if (acc[curr.favorite_food]) {
+    if (acc[curr.name]) {
       acc[curr.favorite_food].count++;
       acc[curr.favorite_food].total = acc[curr.favorite_food].total + curr.animal_age;
     } else {

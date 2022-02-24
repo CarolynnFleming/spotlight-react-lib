@@ -2,7 +2,7 @@ import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import data from './data';
 import { makeColumns, makeCountByAge } from './data-utils';
-import { VictoryBar, VictoryChart, VictoryAxis } from 'victory';
+import { VictoryBar, VictoryChart, VictoryAxis, VictoryPie, VictoryLine } from 'victory';
 
 
 
@@ -37,6 +37,17 @@ export default function App() {
       <VictoryAxis dependentAxis />
       <VictoryBar data={makeCountByAge(data)} x='food' y='totFavFood' />
     </VictoryChart>
+    <VictoryPie
+      colorScale={['tomato', 'orange', 'gold', 'cyan', 'navy']}
+      data={makeCountByAge(data)} x='food' y='totFavFood' />
+    <VictoryChart>
+      <VictoryLine style={{
+        data: { stroke: '#c43a31' },
+        parent: { border: '1px solid #ccc' }
+
+      }} data={makeCountByAge(data)} x='food' y='totFavFood'/>
+    </VictoryChart>
+  
   </>;
 }
 
