@@ -2,6 +2,7 @@ import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import data from './data';
 import { makeColumns } from './data-utils';
+import { VictoryBar, VictoryChart, VictoryAxis } from 'victory';
 
 
 
@@ -18,9 +19,23 @@ import { makeColumns } from './data-utils';
 
 
 export default function App() {
-  return <div style={{ height: 300, width: '100%' }}>
-    <DataGrid columns={makeColumns(data)}
-      rows={data} />
-  </div>;
+  return <>
+    <div style={{ height: 300, width: '100%' }}>
+      <DataGrid columns={makeColumns(data)}
+        rows={data} />
+    </div>;
+    <VictoryChart domainPadding={20}>
+
+      <VictoryAxis
+        tickvalues={[5, 10, 15, 20]}
+        style={{ axis: { stroke: '#AAD922' },
+          axisLabel: { fontSize: 16 },
+          ticks: { stroke: '#8CFF98' },
+          tickLabels: { fontSize: 10, angle: 90, fill: 'red', fontweight: 'bold', verticalAnchor: 'bottom' }
+        }}
+      />
+      <VictoryAxis dependentAxis />
+    </VictoryChart>
+  </>;
 }
 
