@@ -2,6 +2,8 @@ export default [
   {
     'id': 1,
     'city': 'Bologna',
+    'name': 'johnny',
+    'favorite_food': 'pizza',
     'country': 'Italy',
     'color': 'Orange', 
     'Animal': 'Huron',
@@ -10,6 +12,8 @@ export default [
   {
     'id': 2,
     'city':'Wenquan',
+    'name': 'jen',
+    'favorite_food': 'pizza',
     'country':'China',
     'color':'Teal',
     'Animal': 'Kangaroo, red',
@@ -18,6 +22,8 @@ export default [
   {
     'id': 3,
     'city': 'Lupon',
+    'name': 'mark',
+    'favorite_food': 'burger',
     'country': 'Philippines',
     'color': 'Crimson',
     'Animal': 'Asian water buffalo',
@@ -26,6 +32,8 @@ export default [
   {
     'id': 4,
     'city': 'Youghal',
+    'name': 'travis',
+    'favorite_food': 'tacos',
     'country': 'Ireland',
     'color': 'Indigo',
     'Animal': '	Civet (unidentified)',
@@ -34,6 +42,8 @@ export default [
   {
     'id': 5,
     'city': 'Miānwāli',
+    'name': 'angel',
+    'favorite_food': 'tacos',
     'country': 'Pakistan',
     'color': 'Violet',
     'Animal': 'Ringtail common',
@@ -42,6 +52,8 @@ export default [
   {
     'id': 6,
     'city': 'Strasbourg',
+    'name': 'apple',
+    'favorite_food': 'sushi',
     'country': 'France',
     'color': 'Violet',
     'Animal': 'Crowned hawk-eagle',
@@ -50,6 +62,8 @@ export default [
   {
     'id': 7,
     'city': 'Przystajń',
+    'name': 'kelly',
+    'favorite_food': 'sushi',
     'country': 'Poland',
     'color': 'Indigo',
     'Animal': 'Violet-crested turaco',
@@ -58,6 +72,8 @@ export default [
   {
     'id': 8,
     'city': 'Dikirnis',
+    'name': 'robert',
+    'favorite_food': 'tacos',
     'country': 'Egypt',
     'color': 'Red',
     'Animal': 'Bird black-throated butcher',
@@ -66,6 +82,8 @@ export default [
   {
     'id': 9,
     'city': 'Haoraoshan',
+    'name': 'natalie',
+    'favorite_food': 'sushi',
     'country': 'China',
     'color': 'Teal',
     'Animal':  'Jackal silver-backed',
@@ -74,6 +92,8 @@ export default [
   {
     'id': 10,
     'city': 'Peski',
+    'name': 'omar',
+    'favorite_food': 'pizza',
     'country': 'Russia',
     'color': 'Green',
     'Animal': 'Galapagos dove',
