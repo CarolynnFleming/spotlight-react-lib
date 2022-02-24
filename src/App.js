@@ -18,9 +18,9 @@ import { makeColumns } from './data-utils';
 
 
 export default function App() {
-  return <>
+  return <div style={{ height: 300, width: '100%' }}>
     <DataGrid columns={makeColumns(data)}
       rows={data} />
-  </>;
+  </div>;
 }
 
