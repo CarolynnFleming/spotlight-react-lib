@@ -1,5 +1,3 @@
-import { CurrencyRuble } from '@mui/icons-material';
-
 export function makeColumns(arr) {
   const keys = Object.keys(arr[0]);
 
@@ -31,7 +29,7 @@ export function makeCountByAge(arr) {
   return Object.entries(totaFoods)
     .map(entry => ({
       food: entry[0],
-      totFavFood: entry[1].total / entry[1].count
+      AverageAAge: entry[1].total / entry[1].count
     }));
 
 }

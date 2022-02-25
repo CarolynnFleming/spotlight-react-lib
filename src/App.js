@@ -35,17 +35,17 @@ export default function App() {
         }}
       />
       <VictoryAxis dependentAxis />
-      <VictoryBar data={makeCountByAge(data)} x='food' y='totFavFood' />
+      <VictoryBar data={makeCountByAge(data)} x='food' y='AverageAAge' />
     </VictoryChart>
     <VictoryPie
       colorScale={['tomato', 'orange', 'gold', 'cyan', 'navy']}
-      data={makeCountByAge(data)} x='food' y='totFavFood' />
+      data={makeCountByAge(data)} x='food' y='AverageAAge' />
     <VictoryChart>
       <VictoryLine style={{
         data: { stroke: '#c43a31' },
         parent: { border: '1px solid #ccc' }
 
-      }} data={makeCountByAge(data)} x='food' y='totFavFood'/>
+      }} data={makeCountByAge(data)} x='food' y='AverageAAge'/>
     </VictoryChart>
   
   </>;
